@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: gray;
+}
+
+.feedHeader {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.feedContainer{
+    padding-top: 30px;
+    margin: auto;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card{
+    margin: 25px;
+    background-color: white;
+}
+img{
+    width: 300px;
+    object-fit: fill;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px; 
+    margin: 5px; 
+}
+
+.description{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 10px;
+    margin: 5px; 
+}
+
+.number{
+    color: gray;
+}
